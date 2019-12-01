@@ -1,0 +1,38 @@
+@keyframes btn_hover {
+  from {background-color: #77f;}
+  to {background-color: #55f;}
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: #77f;
+  border: 1px solid #aaf;
+  border-radius: 0;
+  padding: 10px;
+  margin: 5px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #55f;
+  animation-name: btn_hover;
+  animation-duration: .5s;
+}
+
+input,
+select,
+textarea {
+  border: 1px solid #aaf;
+  margin: 5px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}

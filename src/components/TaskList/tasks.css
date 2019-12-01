@@ -1,0 +1,54 @@
+.task {
+    margin: 15px 10px;
+    border: 1px solid gray;
+    max-width: 400px;
+}
+
+.taskHeader {
+    padding: 10px;
+    background-color: #5757ff;
+    color: white;
+    font-size: .9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.taskHeader_field {
+    font-weight: bold;
+    font-size: .7rem;
+}
+
+.taskHeader .status {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.taskHeader .btn_sm {
+    padding: 5px;
+    font-size: 0.7rem;
+}
+
+.taskContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.taskContent textarea {
+    padding: 15px;
+    margin: 0;
+    border: none;
+    font-size: 1rem;
+    resize: none;
+}
+
+.taskContent > div {
+    padding: 15px;
+}
+
+.taskHeader span {
+    margin-right: 10px;
+}
